@@ -1,5 +1,6 @@
 function Choice({ selected }) {
-    return <div>{selected && <h1>{selected}</h1>}</div>;
+
+  return <h1>{selected}</h1>;
 }
 
 export default Choice;
